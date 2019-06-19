@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  
   <style>
-      .imgid{
-        background: #888;
-        transform: rotate(0deg);
-        border-radius:256px;
-        cursor: pointer;
-      }
+    .imgid {
+      background: #888;
+      transform: rotate(0deg);
+      border-radius: 256px;
+      cursor: pointer;
+    }
   </style>
   <script src="jquery-3.4.1.min.js"></script>
 </head>
+
 <body>
   <img src="cai.jpeg" class="imgid">
+  &lt;h1&gt;html+css+js&lt;h1&gt;
+  &laquo;&raquo;
+  &times;
 </body>
-  <script>
-   // $('.imgid').click(function(){
-    //  s=0;
-    //  v=10;
-    //  setInterval(function(){
-    //      s+=v;
-    //      document.title=s;
-     //     $('.imgid').css({'transform':'rotate('+s+'deg)'});
-     // },100);
-  //  }); 
-      $('.imgid').hover(
-        function(){
-            $(this).css({'background':'#aaf'});
-        },
-        function(){
-           $(this).css({'background':'#888'});
-        }
-      );
+<script>
+   $('.imgid').click(function(){
+    s=0;
+    v=10;
+    setInterval(function(){
+        s+=v;
+        document.title=s;
+       $('.imgid').css({'transform':'rotate('+s+'deg)'});
+   },100);
+    }); 
+ // $('.imgid').hover(
+ //   function () {
+   //   $(this).css({ 'background': '#aaf' });
+   // },
+   // function () {
+    //  $(this).css({ 'background': '#888' });
+  //  }
+ // );
 
-  </script>
+</script>
 </html>
